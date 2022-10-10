@@ -62,7 +62,13 @@ a{
     margin-left: 0.7rem;
 }
 .periods a{
-   color: hsl(246, 80%, 60%);
+   color: hsl(246, 32%, 70%);
+}
+.periods a:focus{
+    color: white;
+}
+.periods #weekly {
+    color: white;
 }
 .activities{
     display: grid;
@@ -207,7 +213,6 @@ a{
         padding: .5rem;
     
     }
-
    
     .act1{
         border-radius: 10px;
